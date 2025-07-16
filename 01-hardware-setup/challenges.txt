@@ -1,0 +1,6 @@
+Episode 1 Challenges
+--------------------
+1. Try running a Linux VM on the lowest-spec machine you own.
+2. Set up an organized project folder for your labs.
+3. Test both VirtualBox and VMware Player and compare experiences.
+4. Upload a photo/screenshot of your hardware or VM setup!

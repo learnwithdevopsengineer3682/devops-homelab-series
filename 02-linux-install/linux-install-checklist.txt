@@ -1,0 +1,15 @@
+DevOps Home Lab - Linux Install Checklist
+
+[ ] Download Ubuntu Desktop ISO
+[ ] Choose how to install:
+    - [ ] (A) For a Virtual Machine: Mount the ISO in VirtualBox/VMware and start the VM
+    - [ ] (B) For a Physical Computer: Prepare a bootable USB drive with the ISO
+[ ] Boot from ISO (via VM or USB)
+[ ] Follow installer prompts (language, disk setup, username/password)
+[ ] Complete installation & reboot
+[ ] Log in and open Terminal
+[ ] Run 'sudo apt update' and 'sudo apt upgrade'
+[ ] Celebrate: You have a working Linux machine!
+[ ] (Optional) Take a screenshot of your Linux desktop
+[ ] Share your first error or install tip by opening an Issue or commenting on YouTube!
+

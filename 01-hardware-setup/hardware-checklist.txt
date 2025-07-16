@@ -1,0 +1,7 @@
+DevOps Home Lab Hardware Checklist
+
+[ ] PC or Laptop with 8GB+ RAM
+[ ] 30GB+ free disk space
+[ ] VirtualBox or VMware installed
+[ ] External backup (optional)
+[ ] Project folder created (e.g., ~/devops-homelab/)
