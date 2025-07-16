@@ -51,5 +51,3 @@ This helps keep the repo safe for all learners and prevents scammers from target
 Want to support hands-on DevOps education? [learnwithdevopsengineer07@gmail.com]
 
 ---
-
-#DevOps #HomeLab #TechCareers #CloudComputing #BeginnerFriendly

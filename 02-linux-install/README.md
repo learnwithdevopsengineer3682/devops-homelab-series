@@ -27,7 +27,7 @@ See [`linux-install-checklist.txt`](./linux-install-checklist.txt) for a printab
 
 ## 🏆 Challenge Zone
 
-- **Wallpaper Fun:** Change your Linux desktop wallpaper to something unique—take a screenshot and add to `screenshots/`.
+- **User Management:** Create a new user on your Linux server using the terminal (`sudo adduser newusername`). Try switching to the new user and running `whoami`.
 - **Install Your First App:** Use the terminal to install an app (e.g., `sudo apt install neofetch`), and run it!
 - **Terminal Practice:** Create, move, and delete files using only the terminal.
 - **Error Sharing:** Encounter a terminal error? Share what happened and how you fixed it in `errors/` or by opening an Issue.

@@ -1,6 +1,6 @@
 Episode 2 Challenges
 --------------------
-1. Change your Linux wallpaper and take a screenshot!
+1. Create a new user on your Linux server using the terminal (`sudo adduser newusername`). Try switching to the new user and running `whoami`
 2. Install a new app from the terminal and run it.
 3. Do all file operations (create/move/delete) using only the CLI.
 4. Share any error you faced during install and how you fixed it!
