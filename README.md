@@ -9,14 +9,12 @@ Build your own DevOps playground at home—step by step, using just your PC or l
 
 ##  Episodes & Modules
 
-## Episodes & Modules
-
-| Episode                                 | Folder                      | YouTube Link                                     |
-|------------------------------------------|-----------------------------|| Episode                              | Folder               | YouTube Link                                     |
+| Episode                              | Folder               | YouTube Link                                     |
 |---------------------------------------|----------------------|--------------------------------------------------|
 | 1. Build Your Own DevOps Playground   | `01-hardware-setup/` | [Watch Episode 1](https://youtu.be/29DYw69JCXY)  |
-| 2. Installing Linux for DevOps        | `02-linux-install/`  | [Watch Episode 2](https://youtu.be/97CoJMZetMs)  |
+| 2. Installing Linux for DevOps        | `02-linux-install/`  | [Watch Episode 2](https://youtu.be/29DYw69JCXY)  |
 | Bonus: Filesystem Deep Dive           | `bonus-filesystem/`  | *(coming soon)*                                  |
+
 
 
 ---
