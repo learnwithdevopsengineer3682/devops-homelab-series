@@ -1,0 +1,7 @@
+Bonus Filesystem Challenges
+--------------------------
+1. Read the last line of your system log (/var/log/syslog or /var/log/messages).
+2. Use 'find' to list all .conf files in /etc.
+3. Change permissions of a test file with chmod, then restore them.
+4. Find which directory uses the most space in your home directory.
+5. Share your favorite Linux filesystem command or tip by opening an Issue or commenting on YouTube!

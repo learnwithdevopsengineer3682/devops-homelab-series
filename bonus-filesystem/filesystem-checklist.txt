@@ -1,0 +1,12 @@
+Linux Filesystem Deep Dive Checklist
+
+[ ] List all files and directories in the root folder: ls -l /
+[ ] Navigate to /home and check its contents.
+[ ] Explore /etc and count how many .conf files exist.
+[ ] View your current working directory: pwd
+[ ] Check disk usage of each folder: du -sh /*
+[ ] Read the system log: tail /var/log/syslog (or /var/log/messages)
+[ ] Create a new test file, then change its permissions: chmod 700 testfile
+[ ] Restore the original permissions: chmod 644 testfile
+[ ] Check file owner with: ls -l
+[ ] (Optional) Find and open a configuration file you haven’t seen before in /etc
