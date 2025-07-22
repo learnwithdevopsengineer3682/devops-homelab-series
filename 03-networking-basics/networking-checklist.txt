@@ -1,0 +1,17 @@
+# Networking Configuration Checklist
+
+☐ Open VirtualBox > Settings > Network
+☐ Understand difference between NAT and Bridged Adapter
+☐ Boot VM with NAT — confirm internet works via `ping google.com`
+☐ Run `ip a` inside VM — locate IP address of active adapter
+☐ From host, try: `ping <vm-ip>` (NAT will fail)
+☐ Shutdown VM > Switch to Bridged Adapter > Start again
+☐ Run `ip a` again and note new IP (usually 192.168.x.x)
+☐ From host: `ping <vm-ip>` (Should now work)
+☐ Start simple server: `python3 -m http.server`
+☐ From host browser, test `http://<vm-ip>:8000`
+☐ If not reachable:
+   ☐ Check firewall (`sudo ufw status`)
+   ☐ Confirm both machines on same Wi-Fi
+   ☐ Restart VM after setting changes
+☐ (Optional) Try connecting from another device on your network

@@ -1,0 +1,12 @@
+# Networking Challenges
+
+1. Disable all network adapters and try to `ping google.com`. What error do you get?
+2. Switch to NAT, start the VM, and confirm that internet access works with `ping google.com`.
+3. Find the VM's IP address using `ip a`. Can you ping it from your host machine?
+4. Change to Bridged Adapter, restart the VM, and find the new IP.
+5. Can you ping this IP from your host now?
+6. Try running a simple HTTP server on the VM using: `python3 -m http.server 8080`
+7. From your host machine, open a browser and visit: `http://<your-vm-ip>:8080`
+8. Block access using `ufw enable` and test again.
+9. Can you SSH into the VM from your host? Try: `ssh <user>@<vm-ip>`
+10. (Bonus) Connect another device on your Wi-Fi (like your phone) and ping the VM's IP.
