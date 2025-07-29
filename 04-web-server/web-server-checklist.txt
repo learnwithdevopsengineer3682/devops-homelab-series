@@ -1,0 +1,17 @@
+# Web Server Lab Checklist
+
+☐ Confirm VM is running and connected via Bridge mode  
+☐ Get the IP address using `ip a`  
+☐ Install SSH server: `sudo apt install openssh-server`  
+☐ Troubleshoot if `ssh` from host fails  
+   ☐ Check SSH service: `sudo systemctl status ssh`  
+   ☐ If "no host keys" error: `sudo ssh-keygen -A`  
+   ☐ Restart service: `sudo systemctl restart ssh`  
+☐ SSH into VM from host PC: `ssh user@<vm-ip>`  
+☐ Install Nginx: `sudo apt install nginx -y`  
+☐ Start and check Nginx service  
+☐ In host browser, go to `http://<vm-ip>`  
+☐ If blocked, check `sudo ufw status`  
+☐ Customize homepage:  
+   `sudo nano /var/www/html/index.nginx-debian.html`  
+☐ Add your name/meme and refresh the browser  

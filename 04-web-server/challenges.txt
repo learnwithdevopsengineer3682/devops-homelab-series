@@ -1,0 +1,29 @@
+# Web Server Lab Challenges – Episode 4
+
+1. SSH into your VM from your host PC using:
+   ssh <username>@<vm-ip>
+
+2. Install the OpenSSH server:
+   sudo apt install openssh-server
+
+3. Troubleshoot SSH connection errors (e.g., port 22 issues or missing host keys)
+
+4. Install Nginx on the VM:
+   sudo apt install nginx -y
+
+5. Start and verify the service:
+   sudo systemctl status nginx
+
+6. Find your VM’s IP using:
+   ip a
+
+7. Open that IP in your host browser and verify you see the Nginx welcome page.
+
+8. Customize the default homepage:
+   sudo nano /var/www/html/index.nginx-debian.html
+
+9. Add your name or custom message, then refresh the browser.
+
+10. (Bonus) Try breaking Nginx:
+    sudo systemctl stop nginx
+    What happens? Can you recover it?
