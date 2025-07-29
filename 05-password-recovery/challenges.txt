@@ -1,0 +1,25 @@
+# Password Recovery Challenges – Episode 5
+
+1. Shut down your VM completely.
+
+2. Boot into GRUB menu:
+   - Press `ESC` or `Shift` as the VM starts.
+   - Select "Advanced options for Ubuntu" > Recovery mode.
+
+3. Enter the **root shell** from the recovery menu.
+
+4. Use the `passwd` command to reset your user password:
+   passwd <your-username>
+
+5. Reboot the system:
+   reboot
+
+6. Log in with your new password and confirm access.
+
+7. BONUS: Try changing the password of a second user account if one exists.
+
+8. BONUS: Break something (e.g., set an empty password) and fix it via recovery.
+
+9. BONUS: What happens if you try to SSH after resetting the password? Can you still log in remotely?
+
+10. Write a short reflection: Have you ever been locked out before? How did it feel?
