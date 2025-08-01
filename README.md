@@ -18,7 +18,7 @@ Build your own DevOps playground at home—step by step, using just your PC or l
 | 4. Installing Your First Web Server  | `04-web-server/`       | [Watch Episode 4](https://youtu.be/m4w-PG-YfjE)  |
 | 5. Password Recovery                 | `05-password-recovery/`| [Watch Episode 5](https://youtu.be/q0OscDkyW5k)  |
 | 6. Shell Scripting Basics            | `06-shell-scripting/`  | [Watch Episode 6](https://youtu.be/FxTuUw9OGao)  |
-| 7. (coming soon)                     | *(coming soon)*        | *(coming soon)*                                  |
+| 7. SSH-Security                      | *(coming soon)*        | *(coming soon)*                                  |
 
 
 
