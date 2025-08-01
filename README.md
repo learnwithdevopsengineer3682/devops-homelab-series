@@ -9,14 +9,17 @@ Build your own DevOps playground at home—step by step, using just your PC or l
 
 ##  Episodes & Modules
 
-| Episode                              | Folder               | YouTube Link                                     |
-|---------------------------------------|----------------------|--------------------------------------------------|
-| 1. Build Your Own DevOps Playground   | `01-hardware-setup/` | [Watch Episode 1](https://youtu.be/29DYw69JCXY)  |
-| 2. Installing Linux for DevOps        | `02-linux-install/`  | [Watch Episode 2](https://youtu.be/29DYw69JCXY)  |
-| Bonus: Filesystem Deep Dive           | `bonus-filesystem/`  | [Bonus Episode](https://youtu.be/KIzs606ZMh8)    |
-| 3. Networking Basics for DevOps       | `03-networking/`     | [Watch Episode 3](https://youtu.be/mgguJlHQ5V0)  |                                |
-| 4. Installing Your First Web Server | `04-web-server/`       | [Watch Episode 4](https://youtu.be/m4w-PG-YfjE) |
-| 5. Password Recovery                | `05-password-recovery/`|[Watch Episode 5](https://youtu.be/q0OscDkyW5k) |
+| Episode                              | Folder                 | YouTube Link                                     |
+|--------------------------------------|------------------------|--------------------------------------------------|
+| 1. Build Your Own DevOps Playground  | `01-hardware-setup/`   | [Watch Episode 1](https://youtu.be/29DYw69JCXY)  |
+| 2. Installing Linux for DevOps       | `02-linux-install/`    | [Watch Episode 2](https://youtu.be/29DYw69JCXY)  |
+| Bonus: Filesystem Deep Dive          | `bonus-filesystem/`    | [Bonus Episode](https://youtu.be/KIzs606ZMh8)    |
+| 3. Networking Basics for DevOps      | `03-networking/`       | [Watch Episode 3](https://youtu.be/mgguJlHQ5V0)  |
+| 4. Installing Your First Web Server  | `04-web-server/`       | [Watch Episode 4](https://youtu.be/m4w-PG-YfjE)  |
+| 5. Password Recovery                 | `05-password-recovery/`| [Watch Episode 5](https://youtu.be/q0OscDkyW5k)  |
+| 6. Shell Scripting Basics            | `06-shell-scripting/`  | [Watch Episode 6](https://youtu.be/FxTuUw9OGao)  |
+| 7. (coming soon)                     | *(coming soon)*        | *(coming soon)*                                  |
+
 
 
 
