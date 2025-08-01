@@ -1,0 +1,16 @@
+DevOps Home Lab: Shell Scripting Essentials - Checklist
+
+[ ] Create a file named `setup.sh` using your preferred terminal editor (vim/nano)  
+[ ] Add a shebang line: `#!/bin/bash`  
+[ ] Add commands to update and upgrade the system:  
+    sudo apt update && sudo apt upgrade -y  
+[ ] Add a command to install nginx:  
+    sudo apt install nginx -y  
+[ ] Add echo statements to log progress to terminal  
+[ ] Save and exit the script file (`:wq` for vim)  
+[ ] Run `chmod +x setup.sh` to make it executable  
+[ ] Run the script using `./setup.sh`  
+[ ] Verify nginx installation: `systemctl status nginx`  
+[ ] Test in the browser: `http://<your_VM_IP>`  
+[ ] If permission denied: check file permissions using `ls -lrt`  
+[ ] If errors occur: review script syntax or run manually for debugging  

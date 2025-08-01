@@ -1,0 +1,19 @@
+DevOps Home Lab Episode 6: Shell Scripting Essentials - Challenges
+
+CHALLENGE 1:
+Write a shell script that updates your system and installs Nginx, just like in the demo.
+
+CHALLENGE 2:
+Make your script executable using chmod +x and run it without errors.
+
+CHALLENGE 3:
+Uninstall Nginx and re-run your script to test it from scratch.
+
+CHALLENGE 4:
+Write a different script that installs any other package (e.g., Git, htop, curl, etc).
+
+CHALLENGE 5:
+Break your script (intentionally leave a typo or a missing line), run it, and debug the error.
+
+BONUS:
+Share your script or automation idea in the YouTube comments. Best submissions may get featured in the next episode.
