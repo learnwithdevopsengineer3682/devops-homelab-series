@@ -1,0 +1,17 @@
+DevOps Home Lab: SSH Security Setup Checklist
+
+[ ] Update system: sudo apt update && sudo apt upgrade  
+[ ] Install SSH server: sudo apt install openssh-server -y  
+[ ] Check SSH service: systemctl status ssh  
+[ ] Add a user: sudo adduser devops-user  
+[ ] Grant sudo access: sudo usermod -aG sudo devops-user  
+[ ] SSH from host to guest VM  
+[ ] Edit SSH config file (/etc/ssh/sshd_config):  
+    └─ PermitRootLogin no  
+    └─ Port 2200 (optional)  
+[ ] Restart SSH: sudo systemctl restart ssh  
+[ ] Confirm only new user can SSH and root access is disabled  
+[ ] Know recovery methods:  
+    └─ Use VirtualBox console  
+    └─ Boot to recovery mode  
+

@@ -1,0 +1,24 @@
+DevOps Home Lab Episode 7: SSH Security Basics - Challenges
+
+✅ CHALLENGE 1:
+Create a new Linux user (e.g., devops-user) with a secure password.
+
+✅ CHALLENGE 2:
+Add the user to the sudo group to grant admin privileges.
+
+✅ CHALLENGE 3:
+SSH into your VM from your host PC using the new user account.
+
+✅ CHALLENGE 4:
+Edit your SSH configuration to:
+- Disable root login (PermitRootLogin no)
+- (Optional) Change the default SSH port to a custom one like 2200
+
+✅ CHALLENGE 5:
+Restart the SSH service and validate that root login is blocked and only your user works.
+
+✅ CHALLENGE 6:
+Break something on purpose (e.g., misconfigure SSH or lock yourself out) and recover via VirtualBox console or recovery mode.
+
+🏁 BONUS:
+Share your recovery story or what you learned in the video comments!
