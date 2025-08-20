@@ -1,0 +1,19 @@
+DevOps Home Lab Episode 8: Git & Version Control - Challenges
+
+CHALLENGE 1:
+Install Git on your virtual machine and configure your name and email using git config.
+
+CHALLENGE 2:
+Create a new folder, move your script (e.g., setup.sh) into it, and initialize a Git repository using `git init`.
+
+CHALLENGE 3:
+Track your script using `git add` and commit it with a message using `git commit -m`.
+
+CHALLENGE 4:
+Create a private repository on GitHub and connect your local repo to it using `git remote add origin`.
+
+CHALLENGE 5:
+Rename the branch to `main` and push the local repository to GitHub using a personal access token.
+
+BONUS:
+Comment your GitHub repo link or share a screenshot of your Git commit history.

@@ -1,0 +1,17 @@
+DevOps Home Lab: Git & Version Control - Checklist
+
+[ ] Check if Git is installed: git --version
+[ ] Install Git: sudo apt install git -y
+[ ] Configure Git global username: git config --global user.name "Your Name"
+[ ] Configure Git global email: git config --global user.email "you@example.com"
+[ ] Create a folder (e.g., git-demo) and move your script file into it
+[ ] Initialize a local Git repository: git init
+[ ] Stage the script file: git add setup.sh
+[ ] Commit the file: git commit -m "Initial commit: automation script"
+[ ] Create a GitHub account if you don’t have one
+[ ] Create a private repo on GitHub (e.g., git-demo)
+[ ] Add the GitHub remote origin: git remote add origin <repo-URL>
+[ ] Rename branch to main: git branch -M main
+[ ] Generate a GitHub personal access token
+[ ] Push to GitHub: git push origin main (use your token for authentication)
+[ ] Verify your script appears in your GitHub repository
