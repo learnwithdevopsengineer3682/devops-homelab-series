@@ -1,0 +1,17 @@
+DevOps Home Lab: Jenkins & CI/CD - Checklist
+
+[ ] Update your system: sudo apt update
+[ ] Install OpenJDK: sudo apt install openjdk-21-jdk -y
+[ ] Verify Java installation: java -version
+[ ] Download Jenkins signing key and add it to your system
+[ ] Add Jenkins repository to your sources list
+[ ] Refresh package index: sudo apt update
+[ ] Install Jenkins: sudo apt install jenkins -y
+[ ] Check Jenkins service status: sudo systemctl status jenkins
+[ ] Open browser to http://<your_vm_ip>:8080
+[ ] Retrieve initial admin password: sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+[ ] Complete web setup and install suggested plugins
+[ ] Create admin user with username, password, full name, and email
+[ ] Access the Jenkins dashboard and explore options under "Manage Jenkins"
+[ ] Create a new pipeline job and write a basic script using `pipeline { stages { ... } }`
+[ ] Run your pipeline using "Build Now" and check the console output

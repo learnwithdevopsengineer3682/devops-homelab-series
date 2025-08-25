@@ -1,0 +1,22 @@
+DevOps Home Lab Episode 9: Jenkins & CI/CD - Challenges
+
+CHALLENGE 1:
+Install Jenkins on your Linux virtual machine using the official package.
+
+CHALLENGE 2:
+Install OpenJDK before setting up Jenkins and verify your Java version.
+
+CHALLENGE 3:
+Configure Jenkins by accessing the web interface and entering the initial admin password.
+
+CHALLENGE 4:
+Install suggested plugins and create your first admin user.
+
+CHALLENGE 5:
+Create your first Jenkins pipeline and write a simple CI/CD script with stages for build, test, and deploy.
+
+CHALLENGE 6:
+Run the pipeline and review the console output to verify all steps executed successfully.
+
+BONUS:
+Try editing the pipeline to intentionally break a stage and observe how Jenkins handles the failure.
