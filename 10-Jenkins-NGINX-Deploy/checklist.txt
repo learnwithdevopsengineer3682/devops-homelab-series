@@ -1,0 +1,10 @@
+- [ ] Check if NGINX is running (systemctl status nginx)
+- [ ] Create GitHub repo for your web app
+- [ ] Clone repo to VM and add index.html
+- [ ] Push changes to main branch
+- [ ] Ensure /var/www/html is writable by Jenkins
+- [ ] Create a Jenkins Freestyle project
+- [ ] Configure Git repo and credentials
+- [ ] Add Execute Shell build step to copy HTML
+- [ ] Run build and verify on browser
+- [ ] Modify code, push again, rebuild, verify update

@@ -1,0 +1,7 @@
+CHALLENGE:
+Deploy your own custom static site using Jenkins and NGINX.
+✅ Add a second page (about.html)
+✅ Modify styles or add colors
+✅ Try deploying a different HTML file
+✅ Trigger the pipeline on code push (webhook optional)
+✅ Break something and recover from it!
